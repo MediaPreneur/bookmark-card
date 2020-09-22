@@ -42,6 +42,18 @@
 			"source": "text",
 			"selector": ".bookmark_card__meta-publisher",
 			"default": ""
+		},
+		"linkTarget": {
+			"type": "string",
+			"source": "attribute",
+			"selector": ".bookmark-card",
+			"attribute": "target"
+		},
+		"rel": {
+			"type": "string",
+			"source": "attribute",
+			"selector": ".bookmark-card",
+			"attribute": "rel"
 		}
 	},
 	"supports": {

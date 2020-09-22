@@ -69,6 +69,18 @@ registerBlockType( 'mamaduka/bookmark-card', {
 			selector: '.bookmark_card__meta-publisher',
 			default: '',
 		},
+		linkTarget: {
+			type: 'string',
+			source: 'attibute',
+			selector: '.bookmark-card',
+			attribute: 'target',
+		},
+		rel: {
+			type: 'string',
+			source: 'attibute',
+			selector: '.bookmark-card',
+			attribute: 'rel',
+		},
 	},
 	styles: [
 		{

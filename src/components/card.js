@@ -7,11 +7,18 @@ export default function Card( {
 	description,
 	icon,
 	publisher,
+	linkTarget,
+	rel,
 	className,
 } ) {
 	return (
 		<figure className={ className }>
-			<a className="bookmark-card" href={ url }>
+			<a
+				className="bookmark-card"
+				href={ url }
+				target={ linkTarget }
+				rel={ rel }
+			>
 				{ image && (
 					<div className="bookmark-card__image">
 						<img src={ image } />
